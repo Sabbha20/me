@@ -1,0 +1,158 @@
+
+html { 
+    width:100%; 
+    height:100%; 
+    margin:0 ;
+    padding:0; }
+
+body{
+    text-align: center;
+    margin: 0em;
+    font-family: 'Ubuntu', sans-serif;
+    color: #40514E;
+}
+title{
+    font-family: 'Dancing Script', cursive;
+}
+
+div.top-container{
+    background-color: #e3fdfd;
+    position: relative;
+    padding: 6em 0 0 0;
+}
+
+.upper-cloud {
+    position: absolute;
+    right: 20%;
+    top: 10%;
+}
+
+.lower-cloud{
+    position: absolute;
+    left: 20%;
+    bottom: 37%;
+}
+
+.intro{
+    width: 40%;
+    margin: 0 auto;
+    color: #66BFBF;
+}
+.intro h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    font-weight: 100;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.intro p{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5em;
+}
+
+h2{
+    font-family: 'Stylish', sans-serif;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Stylish', sans-serif;
+    color: #11999E;
+}
+
+a {
+    font-family: 'Stylish', sans-serif;
+    color: #11999E;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+.profile img{
+    height: 10em;
+}
+
+.skill-row img{
+    width: 25%;
+}
+
+.skill-row{
+    padding: 2em;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2.5em;
+}
+
+
+.development{
+    float: left;
+    margin: 0 2em 0 0;
+}
+
+.grow{
+    float: right;
+    margin: 0 0 0 2em;
+}
+.skills {
+    margin: 6em;
+}
+
+div.middle-container{
+    margin: 4em 0;
+}
+div.bottom-container{
+    margin: 0;
+    background-color: #66BFBF;
+    height: 10em;
+    padding-top: 2em;
+    line-height: 3em;
+}
+
+.copyright{
+    color: #EAF6F6;
+}
+
+hr{
+    width: 10%;
+    border-style: dotted none none;
+    height: 6px;
+    border-width: 0.5em;
+    border-color: #EAF6F6;
+}
+
+.footer-link{
+    display: inline-block;
+    font-size: 1.3em;
+    width: 7em;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.btn{
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    text-decoration: none;
+    padding: .9em;
+    border-radius: 7px;
+}
+
+.contact-me p{
+    width: 50em;
+    margin: 4em auto;
+}
+
+.profile>p{
+    width: 50em;
+    margin: 3em auto;
+}
+
+
+
+img.skill{
+    float: right;
+    margin: 0 0 0 2em;
+}
+
