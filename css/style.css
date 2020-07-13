@@ -140,12 +140,12 @@ hr{
 }
 
 .contact-me p{
-    width: 50em;
+    width: 50%;
     margin: 4em auto;
 }
 
 .profile>p{
-    width: 50em;
+    width: 50%;
     margin: 3em auto;
 }
 
@@ -156,3 +156,6 @@ img.skill{
     margin: 0 0 0 2em;
 }
 
+.mountain{
+    width: 60%;
+}
