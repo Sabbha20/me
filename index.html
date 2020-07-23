@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -15,11 +18,66 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Orbitron&family=Stylish&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
-    <title>Sabbha Mondal</title>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Sabbha Mondal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
   </head>
   <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="header">
+      <div class="container-md">
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html"> <img class="logo " src="images/happy-monk.png" alt="Sabbha Mondal" /></a>
+            <button
+              class="navbar-toggler custom-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon navbar-custom"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link " href="">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="">Download</a>
+                </li>
+              </ul>
+            </div>
+          </nav></div>
+    </div>
+
     <div class="top-container">
       <img src="images/cloud.png" alt="" class="upper-cloud float-right" />
       <div class="intro">
@@ -30,6 +88,7 @@
       <img src="images/cloud.png" alt="" class="lower-cloud float-left" />
       <img src="images/mountain.png" alt="" class="mountain" />
     </div>
+
     <div class="middle-container">
       <div class="profile">
         <img src="images/happy-monk.png" alt="Sabbha Mondal" />
@@ -39,93 +98,49 @@
           design and love to create for web and mobile devices.
         </p>
       </div>
-      <hr />
+      
       <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="skill"
-            src="https://media.giphy.com/media/KffwNHRGkub1Umh9bc/giphy.gif"
-            alt="Skills"
-          />
-          <table cellspacing="10" class="table-responsive">
-            <tr>
-              <td>
-                <table>
-                  <tr>
-                    <td>HTML</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>CSS</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>JAVA</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
-                </table>
-              </td>
-              <td>
-                <table>
-                  <tr>
-                    <td>PHP</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>JS</td>
-                    <td>⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>SQL</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                </table>
-              </td>
-              <td>
-                <table>
-                  <tr>
-                    <td>SOA</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>XSLT</td>
-                    <td>⭐⭐⭐⭐</td>
-                  </tr>
-                  <tr>
-                    <td>XML</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <div class="skill-row">
-          <img
-            class="development"
-            src="https://media.giphy.com/media/d9IfL7seBexHLct75B/giphy.gif"
-            alt="Coding"
-          />
-          <h3>What to expect?</h3>
-          <p>
-            I'm a developer, so I know how to create your website to run across
-            devices using the latest technologies available.
-          </p>
-        </div>
-        <div class="skill-row">
-          <img
-            class="grow"
-            src="https://media.giphy.com/media/U3gAQoNkuACxqA8IGI/giphy.gif"
-            alt="Grow"
-          />
-          <h3>Growth</h3>
-          <p>
-            We keep learning and growing. Teaching yourself a new skill can be a
-            great way to get familiar with it and even master it.
-          </p>
+        <hr />
+      <h2>My Skills.</h2>
+
+      <div class="skill-row container">
+        <div class="row">
+          <div class=" skill-logo col-md-4">
+            <img
+              class="development"
+              src="https://media.giphy.com/media/d9IfL7seBexHLct75B/giphy.gif"
+              alt="Coding"
+            />
+          </div>
+          <div class="col-md-8 growth-text">
+            <h3>What to expect?</h3>
+            <p>
+              I'm a developer, so I know how to create your website to run
+              across devices using the latest technologies available.
+            </p>
+          </div>
         </div>
       </div>
+
+      <div class="skill-row container">
+        <div class="row clearfix">
+          <div class="skill-logo col-md-4 growth ">
+            <img
+              class="grow"
+              src="https://media.giphy.com/media/U3gAQoNkuACxqA8IGI/giphy.gif"
+              alt="Grow"
+            />
+          </div>
+          <div class="col-md-8 growth-text">
+            <h3>Growth</h3>
+            <p>
+              We keep learning and growing. Teaching yourself a new skill can
+              be a great way to get familiar with it and even master it.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <hr />
       <div class="contact-me">
         <h2>Get In Touch</h2>
@@ -134,7 +149,7 @@
           If you have a project that you want to get started, think you need my
           help with something or just fancy saying hey, then get in touch.
         </p>
-        <a class="btn" href="mailto:sabbhajava20@gmail.com"
+        <a class="botn btn" href="mailto:sabbhajava20@gmail.com"
           ><svg
             width="1em"
             height="1em"
@@ -151,19 +166,21 @@
           CONTACT ME</a
         >
       </div>
+      </div>
     </div>
 
     <div class="bottom-container">
       <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/sabbha-sachi-239a78194/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://twitter.com/MondalSabbha">Twitter</a>
-      <a class="footer-link" href="https://www.facebook.com/sabbhasachi.mondal"
-        >Facebook</a
-      >
-      <p class="copyright">© 2020 sabbha_mondal.</p>
+      class="footer-link btn btn-lg btn-outline-info"
+      href="https://www.linkedin.com/in/sabbha-sachi-239a78194/"
+      ><i class="fab fa-linkedin"></i>  LinkedIn</a
+    >
+    <a class="footer-link btn btn-lg btn-outline-info" href="https://twitter.com/MondalSabbha"><i class="fab fa-twitter"></i>  Twitter</a>
+    <a class="footer-link btn btn-lg btn-outline-info" href="https://www.facebook.com/sabbhasachi.mondal"
+      ><i class="fab fa-facebook"></i>  Facebook</a
+    >
+    <p class="copyright">© 2020 sabbha_mondal.</p>
     </div>
+    <script src="" async defer></script>
   </body>
 </html>
