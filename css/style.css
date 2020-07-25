@@ -5,6 +5,9 @@ html {
   padding: 0;
 }
 
+/* Body section
+ */
+
 body {
   text-align: center;
   margin: 0em;
@@ -15,8 +18,42 @@ title {
   font-family: "Dancing Script", cursive;
 }
 
+.myskills{
+  padding: 3rem 0;
+  font-family: "Stylish", sans-serif;
+  color: #11999e !important;
+  font-size: 1.5em;
+}
 
-.logo{
+.myskills div{
+  background: no-repeat;
+  border-color: #11999e !important;
+}
+
+.skill-content {
+  display: block;
+    padding: 1rem 8rem;
+ 
+}
+.rindicators>a{
+  right: 0px;
+  width: 40px;
+}
+
+.card{
+  display: block;
+}
+img.card-img-top{
+  width: 50%;
+    padding: 2em
+}
+
+.lindicators>a{
+  left: 0px;
+  width: 40px;
+}
+
+.logo {
   position: absolute;
   z-index: 100;
   height: 10rem;
@@ -77,6 +114,7 @@ div.top-container {
 h2 {
   font-family: "Stylish", sans-serif;
   color: #66bfbf;
+  margin: 0 0 2em;
 }
 
 h3 {
@@ -93,10 +131,9 @@ a:hover {
   color: #eaf6f6;
 }
 
-.header a:hover{
-color: #11999e;
-text-shadow: 10px 10px 10px #000;
-;;
+.header a:hover {
+  color: #11999e;
+  text-shadow: 10px 10px 10px #000;
 }
 
 .profile img {
@@ -104,7 +141,7 @@ text-shadow: 10px 10px 10px #000;
 }
 
 .skill-row img {
-  width: 50%;
+  width: 60%;
 }
 
 .skill-row {
@@ -112,13 +149,7 @@ text-shadow: 10px 10px 10px #000;
   margin: 0 0 4em 0;
 }
 
-.development {
- 
-}
 
-.grow {
-  
-}
 .skills {
   margin: 0 auto;
   width: 50%;
@@ -148,7 +179,6 @@ hr {
 }
 
 .footer-link {
-
 }
 
 .botn {
@@ -177,19 +207,59 @@ img.skill {
   width: 60%;
 }
 
-
-.col-md-4.growth{
- float: right;
+.col-md-4.growth {
+  float: right;
 }
 
-.col-md-8.growth-text{
+.col-md-8.growth-text {
   text-align: left;
 }
 
-.clearfix{
+.clearfix {
   display: inline-block;
 }
 
-.skill-logo{
+.skill-logo {
   margin: 0 0 5rem 0;
+}
+
+
+/* Screen resolution between 768px to 1020px */
+
+@media screen and (min-width: 768px) and (max-width: 1020px){
+  .skill-row img {
+    width: 100%;
+}
+
+.card{
+  display: block;
+}
+img.card-img-top{
+  width: 100%;
+    padding: 2em
+}
+}
+
+/* Screen resolution below 768px */
+
+@media screen and (max-width: 768px) {
+  .col-md-8.growth-text {
+    text-align: center;
+}
+.card{
+  display: block;
+}
+img.card-img-top {
+  width: 100%;
+  padding: 1em 0;
+}
+
+}
+
+/* Screen resolution below 575px */
+@media screen and (max-width: 575px) {
+img.card-img-top{
+  width: 90%;
+    padding: 2em
+}
 }
